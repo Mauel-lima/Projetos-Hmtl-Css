@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        ul{
+            margin: 10px;
+            margin-left: 10px;
+        }
+        li{
+            margin:20px;
+        }
+        ul li ul li{
+            list-style-type: none;
+        }
+        #explica{
+            font-weight: bold;
+            border: solid white;
+            background-color: white;
+            border-radius: 10px;
+            padding:10px;
+            color: black;
+        }
+        button{
+            padding: 10px;
+            font-size: medium;
+            font-weight: bold;    
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Banho</title>
+</head>
+<body>
+    <header>
+    <nav>
+            <a href="index.html"><img id="logo" src="img/logo.png" alt="PetShopMauel" width="100"></a>
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="Cadastro.html">Cadastro</a></li>
+                <li id="serv">Serviços
+                    <ul>
+                        <li><a href="Banho.html">Banho</a></li>
+                        <li><a href="Tosa.html">Tosa</a></li>
+                    </ul>
+                </li>
+                <li><a href="Consulta.html">Consulta</a></li>
+            </ul>        
+        </nav>
+    </header>
+    <h1 id="inicio" class="inicio">Banho</h1>
+        
+    </div>
+    <main>
+        <div class="servi-container">
+            <p class="infor">Temos muitas opções de banho, fique à vontade, confirme a opção escolhida no final da página</p>
+            <form>
+                <ul>
+                    <li>
+                        <ul>
+                            Simples<input name="banho[]"type="checkbox" value="Simples">
+                            <li>
+                                <p id="explica">É o banho mais simples que nós temos, ele é apenas um banho de rotina</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>Baby
+                            <input name="banho[]"type="checkbox" value="Baby">
+                            <li>
+                                <p id="explica">O banho baby é destinada apenas para os cahorros de porte pequeno pois exige um pouco mais de cuidado</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>Completo
+                            <input name="banho[]"type="checkbox" value="Completo">
+                            <li>
+                                <p id="explica">O banho completo, inclui todos os cachorros, e já contém hidratação</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            Com hidratação
+                            <input name="banho[]"type="checkbox" value="Com hidratação">
+                                <li>
+                                    <p id="explica">Inclui o banho simples com hidratação</p>
+                                </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            Sem hidratação
+                            <input name="banho[]"type="checkbox" value="Sem hidratação">
+                            <li>
+                                <p id="explica">O banho completo sem hidratação, perfeita para quem quer economizar</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul><br>
+                <button>Confirmar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Mauel-lima">
+            <p class="copyright">© Desenvolvedor Emanuel - 2022</p>
+        </a>
+</footer>
+</body>
+</html>

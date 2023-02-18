@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Consulta</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="index.html"><img id="logo" src="img/logo.png" alt="PetShopMauel" width="100"></a>
+                <ul>
+                    <li id="home"><a href="index.html"> Home</a></li>
+                    <li><a href="Cadastro.html">Cadastro</a></li>
+                    <li id="serv">Serviços
+                        <ul>
+                            <li><a href="Banho.html">Banho</a></li>
+                            <li><a href="Tosa.html">Tosa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Consulta.html">Consulta</a></li>
+                </ul>        
+            </nav>
+        </header>
+    <h1 id="inicio" class="inicio">Consulta</h1>
+    <main>
+        <div class="Consulta-container">
+            <p class="infor">Para que sua consulta seja marcada, precisamos de algumas informações</p>
+            <form >
+                <label for="Dia">Informe o dia desejado para a consulta:</label><br>
+                <input type="date" name="data" class="cadastro" required><br><br>
+                <h3 style="color: black; margin: 5px;">Veterinários Disponiveís</h3><br>
+                <label for="emanuel">Emanuel</label>
+                <input type="radio" name="vetreinario" value="Emanuel" >
+                <label for="Barbara">Barbara</label>
+                <input type="radio" value="Barbara" name="vetreinario"  >
+                <label for="Marcos">Marcos</label>
+                <input type="radio" value="Marcos" name="vetreinario" >
+                <label for="Ana">Ana</label>
+                <input type="radio" value="Ana" name="vetreinario" ><br><br>
+                <label for="consulta">Qual é o motivo da consulta:</label><br>
+                <textarea name="consulta" cols="30" rows="5" style="margin:10px; text-align: left;" required></textarea>
+                <br>
+                <button style="margin-left: 1%">Marcar Consulta</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Mauel-lima">
+            <p class="copyright">© Desenvolvedor Emanuel - 2022</p>
+        </a>
+</footer>
+</body>
+</html>

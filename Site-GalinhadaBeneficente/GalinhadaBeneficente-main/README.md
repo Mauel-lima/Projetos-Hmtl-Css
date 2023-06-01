@@ -1,2 +1,2 @@
 # GalinhadaBeneficente
- Site destinado ao tratamento da Dona Maria Machado
+ Pequena página destinada a ajudar no tratamento da Dona Maria Machado
